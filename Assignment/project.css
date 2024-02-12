@@ -1,0 +1,190 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+body{
+    margin: 0.7em 0 0 0;
+    padding: 0;
+    font-family: 'Avenir', sans-serif;
+    background-image: url(Images/Background_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222ef;
+    border-radius: 4em;
+    grid-area: header;
+    margin-top: 0.7em;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.logo{
+font-size: larger;
+padding-left: 1em;
+color: white;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 1em;
+}
+nav ul li a{
+    color: #e96d3f;
+}
+    
+
+.activePage{
+    color:white;
+}
+
+
+/* nav{
+    background-color: #232526;
+    justify-content:space-around;
+    grid-area: nav;
+    margin: auto;
+    border-radius: 3em;
+    
+    width: 90%;
+    margin-top: 0.7em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    color: #ffffff;
+
+} */
+
+main{
+    height: 83vh;
+    grid-area: main;
+}
+footer{
+    background-color: #222222ef ;
+    grid-area: footer;
+    text-align: center;
+    
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em 0 0 0;
+}
+footer ul li {
+    padding: 0 0.2em;
+}
+footer p{
+    display: inline-block;
+    align-items: center;
+    margin: 0.5em 0.1em;
+    color: #e96d3f;
+
+}
+
+
+
+
+
+
+/* @import url('https://fonts.cdnfonts.com/css/avenir');
+
+body,html{
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(Images/Background_01.png) ;
+   background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: #232526; 
+    background: -webkit-linear-gradient(to left, #414345, #232526);  
+    background: linear-gradient(to left, #414345, #232526); 
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5vh;
+    margin: 0em;
+    text-align: center;
+    padding-left: 0;
+    background-color: #232526; 
+}
+
+.navBar,a{
+     color:#000000 !important;
+ }
+.contactFooter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px;
+     background-color: #6e7376 ;
+     text-align: center;
+}
+.contactFooter-links{
+    padding:0.1em 0;
+}
+.contactFooter,p{
+    display: inline;
+    color: #fff;
+    padding: 10px;
+} */
+
+
+/* @import url('https://fonts.cdnfonts.com/css/avenir');
+
+body,html{
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+   background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+     background: #232526; 
+    background: -webkit-linear-gradient(to left, #414345, #232526);  
+    background: linear-gradient(to left, #414345, #232526); 
+    background-image: url(Images/Background_02.png);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5vh;
+    margin: 0em;
+    text-align: center;
+    padding-left: 0;
+    background-color: #232526;
+}
+
+.navBar,a{
+    color:#fff !important;
+}
+.contactFooter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px;
+    background-color: #6e7376 ;
+    text-align: center;
+}
+.contactFooter-links{
+    padding:0.1em 0;
+}
+.contactFooter,p{
+    display: inline;
+    color: #fff;
+    padding: 10px;
+} */

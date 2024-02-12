@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+body,html{
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+   /* background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    background: #232526; 
+    background: -webkit-linear-gradient(to left, #414345, #232526);  
+    background: linear-gradient(to left, #414345, #232526); 
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5vh;
+    margin: 0em;
+    text-align: center;
+    padding-left: 0;
+    background-color: #232526;
+}
+
+.navBar,a{
+    color:#fff !important;
+}
+.contactFooter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px;
+    background-color: #6e7376 ;
+    text-align: center;
+}
+.contactFooter-links{
+    padding:0.1em 0;
+}
+.contactFooter,p{
+    display: inline;
+    color: #fff;
+    padding: 10px;
+}
